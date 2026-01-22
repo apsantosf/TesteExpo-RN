@@ -25,9 +25,9 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Passo 1: Experimente</ThemedText>
         <ThemedText>
-          Edit{" "}
+          Edite{" "}
           <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText>{" "}
-          to see changes. Press{" "}
+          para ver as alterações. Pressione{" "}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
               ios: "cmd + d",
@@ -35,7 +35,7 @@ export default function HomeScreen() {
               web: "F12",
             })}
           </ThemedText>{" "}
-          to open developer tools.
+          para abrir as ferramentas de desenvolvedor.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
